@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Proyecto "Primeros pasos del desarrollo frontend": CV online</title>
+    <link rel="icon" type="image/x-icon" href="imagenes/person-fill.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilos-css.css">
+    </head>
+  <body>
+    <section>   <!-- INICIO barra de navegacion com las distintas opciones disponibles en la pagina -->
+        <nav class="navbar navbar-expand-lg bg-light barra-principal" id="menu">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="menu_nav_brand" disable>Curriculum Vitae online</a>
+                <div class="form-check form-switch">
+                    <input type="checkbox" class="form-check-input" role="switch" id="checkbox-tema">
+                    <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon btn-ligth"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="index.html" id="menu-nav-home">Home</a>
+                        <a class="nav-link" href="#idiomas" id="menu_nav_idiomas">Idiomas</a>
+                        <a class="nav-link" href="#competencias" id="menu-nav-comp">Competencias</a>
+                        <a class="nav-link" href="#estudios" id="menu-nav-est">Estudios</a>
+                        <a class="nav-link" href="#experiencias" id="menu-nav-exp">Experiencia</a>
+                        <a class="nav-link" href="#redessociales" id="menu-nav-redes">Redes Sociales</a>
+                        <a class="nav-link" href="#contacto" id="menu_nav_contacto">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>     <!-- FIN barra de navegacion de la pagina -->
+    </section>  <!-- FIN barra de navegacion com las distintas opciones disponibles en la pagina -->
+    <div class="container-fluid">
+        <div class="header">
+            <section>   <!-- INICIO de la sección de la página web 'header' Encabezado del CV de la persona  -->
+                <div class="row">
+                    <div class="col-sm-12 col-md-9 col-lg-9 text-center">
+                        <h2 class="text-uppercase fw-bolder">CV Arturo Jose Miller</h2>
+                        <h3 class="border-bottom border-secundary border-2">Ingeniero en Sistemas</h3>
+                    </div>
+                    <div class="col text-center">
+                        <img src="/imagenes/yo_avatar.png" alt="foto perfil" class="rounded-circle mt-1 mb-2">
+                        <div class="row text-center">
+                            <h6>Quitilipi (Chaco-Arg), 20/05/1965</h6>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <h6>Profesional con sólido conocimiento científicos y tecnológicos para aplicar procesos interactivos de análisis, diseño, implementación y evaluación de sistemas de información</h6>
+                    </div>
+                </div>
+            </section>  <!-- FIN de la sección de la página web 'header' Encabezado del CV de la persona  -->
+        </div>
+        <div class="contenido">
+            <section>   <!-- INICIO de la sección de la página web 'CONTENIDO' principal de la pagina  -->
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-3 border-3 aside">
+                        <section>   <!-- INICIO de la sección de la página web 'aside' informacion de Estudios, Idiomas, Competencias  -->
+                            <div class="float-end">
+                                <a href="index.html#menu_nav_brand"><i class="bi bi-caret-up-square-fill"></i></a>
+                            </div>
+                            <h6 id="estudios" class="text-decoration-underline"><i class="bi bi-book"></i> ESTUDIOS </h6>
+                            <table class="table table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Año</th>
+                                        <th scope="col">Tipo</th>
+                                        <th scope="col">Institución</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>2020</td>
+                                        <td>Azure Fundamentals</td>
+                                        <td>ITCollege</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2010</td>
+                                        <td>Cloud foundations</td>
+                                        <td>AWS Academy</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2000</td>
+                                        <td>Certificacion Redes</td>
+                                        <td>UTN Buenos Aires</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1990</td>
+                                        <td>Ingeniero en Sistemas</td>
+                                        <td>Univ Nacional Córdoba</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="float-end">
+                                <a href="index.html#menu_nav_brand"><i class="bi bi-caret-up-square-fill"></i></a>
+                            </div>
+                            <h6 id="idiomas" class="text-decoration-underline"><i class="bi bi-chat-text-fill"></i> IDIOMAS </h6>
+                            <table class="table table-borderless">
+                                <tbody>
+                                    <tr>
+                                        <td>Español</td>
+                                        <td id="text-nativo"><p class="text-center">nativo</p></td>
+                                    </tr>
+                                        <tr>
+                                        <td>Ingles</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-label="Ingles" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </td>
+                                    </tr>
+                                        <tr>
+                                        <td>Portugues</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-label="Portugues" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Frances</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-label="Frances" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </td>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="float-end">
+                                <a href="index.html#menu_nav_brand"><i class="bi bi-caret-up-square-fill"></i></a>
+                            </div>
+                            <h6 id="competencias" class="text-decoration-underline"><i class="bi bi-tools"></i> COMPETENCIAS </h6>
+                            <table class="table table-borderless">
+                                <tbody>
+                                    <tr>
+                                      <td>Programación</td>
+                                      <td>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-label="Programacion" style="width: 75%" aria-valuenow="75" aria-valuemin="75" aria-valuemax="100"></div>
+                                        </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>BD MySQL</td>
+                                        <td>
+                                          <div class="progress">
+                                              <div class="progress-bar" role="progressbar" aria-label="BD MySQL" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                          </div>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                        <td>SO WIN/Linux</td>
+                                        <td>
+                                          <div class="progress">
+                                              <div class="progress-bar" role="progressbar" aria-label="SO WIN/Linux" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                          </div>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                        <td>Redes TCP/IP</td>
+                                        <td>
+                                          <div class="progress">
+                                              <div class="progress-bar p-4" role="progressbar" aria-label="Redes" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                          </div>
+                                          </td>
+                                      </tr>
+        
+                                </tbody>
+                            </table>
+                        </section>  <!-- FIN de la sección de la página web 'aside' informacion de Estudios, Idiomas, Competencias  -->
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-9 contenido-principal">
+                        <section>   <!-- INICIO de la sección de la página web 'main' cuerpo principal del CV de la persona  -->
+                            <div class="float-end">
+                                <a href="index.html#menu_nav_brand"><i class="bi bi-caret-up-square-fill"></i></a>
+                            </div>
+                            <h6 id="experiencias" class="text-decoration-underline">EXPERIENCIA LABORAL</h6>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item pt-3 pb-3">
+                                  <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <dl>
+                                            <dt> <h6> #Empresa:"ALIBABA GROUP" del 01/12/2012 a la actualidad </h6></dt>
+                                        </dl>
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <mark><u>Rol:</u></mark> Líder de equipo tecnología. 
+                                        <mark><u>Pincipales actividades:</u></mark> Gestionar adecuadamente los recursos de la empresa relacionadas con el manejo de la información.
+                                        Dirigir y administrar proyectos informáticos planeando estratégicamente el uso de la información.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item pt-3 pb-3">
+                                  <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        <dl>
+                                            <dt><h6> #Empresa: "META PLATFORMS" del 10/05/2010 al 30/11/2012 </h6></dt>
+                                        </dl>
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <mark><u>Rol:</u></mark> Programador semi-senior. 
+                                        <mark><u>Pincipales actividades:</u></mark> elaborar y optimizar software informático, así como a adaptarlos para su uso en las distintas plataformas y sistemas operativos de la organizacion. 
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item pt-3 pb-3">
+                                  <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        <dl>
+                                            <dt><h6> #Empresa: "AMAZON.COM INC." del 01/05/2007 al 01/02/2010 </h6></dt>
+                                        </dl>
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <mark><u>Rol:</u></mark> Project manager. 
+                                        <mark><u>Pincipales actividades:</u></mark> Aplicar modelos, métodos y técnicas de ingeniería de software para administrar los procesos del desarrollo tecnológico
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item pt-3 pb-3">
+                                    <h2 class="accordion-header" id="flush-heading4">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                                            <dl>
+                                                <dt><h6> #Empresa: "SAUDI ARABIAN OIL" del 01/10/2000 al 01/07/2007 </h6></dt>
+                                            </dl>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <mark><u>Rol:</u></mark> Desarrollador software. 
+                                            <mark><u>Pincipales actividades:</u></mark> Construir programas computacionales de gestión empresarial utilizando la ingeniería de sistemas.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item pt-3 pb-3">
+                                    <h2 class="accordion-header" id="flush-heading5">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                                        <dl>
+                                            <dt><h6> #Empresa: "MICROSOFT CORPORATION" del 01/04/2005 al 01/08/2000 </h6></dt>
+                                        </dl>
+                                      </button>
+                                    </h2>
+                                    <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <mark><u>Rol:</u></mark> Dueño de productos Software. 
+                                            <mark><u>Pincipales actividades:</u></mark> Evaluar los sistemas actuales e identificación de posibles mejoras
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item pt-3 pb-3">
+                                    <h2 class="accordion-header" id="flush-heading6">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                                            <dl>
+                                                    <dt><h6> #Empresa: "APPLE INC" del 01/01/2000 al 01/01/2007 </h6></dt>
+                                            </dl>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <mark><u>Rol:</u></mark> Administrador de red. 
+                                            <mark><u>Pincipales actividades:</u></mark> Redes, Bases de Datos, Internet de las Cosas (IoT) Software y otros componentes de gestión y desarrollo de la información.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>  <!-- FIN de la sección de la página web 'main' cuerpo principal del CV de la persona  -->
+                    </div>
+                </div>
+            </section>      <!-- FIN de la sección de la página web 'CONTENIDO' principal de la pagina  -->
+        </div>
+        <div class="footer">    
+            <section>   <!-- INICIO de la sección de la página web 'footer' -->
+                <div class="row">
+                    <section>   <!-- INICIO de la sección de la página web 'footer' informacion de Contacto, Redes Sociales  -->
+                        <div class="float-end">
+                            <a href="index.html#menu_nav_brand"><i class="bi bi-caret-up-square-fill"></i></a>
+                        </div>
+                        <h6 id="redessociales" class="text-decoration-underline mt-2 pb-2">REDES SOCIALES</h6>
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                            <div class="col">
+                                <div class="card px-2 mx-2">
+                                    <i class="bi bi-building"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-6">Domicilio</h5>
+                                        <p class="card-text">San Martin 2849 Cordoba</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card px-2 mx-2">
+                                    <i class="bi bi-telephone"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-6">Telefono</h5>
+                                        <p class="card-text">011-4555-2589</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                    <div class="card px-2 mx-2">
+                                        <i class="bi bi-mailbox"></i>
+                                        <div class="card-body">
+                                            <h5 class="card-title fs-6">Correo</h5>
+                                            <p class="card-text"><a href="mailto:contacto@correo.com.ar" class="link-primary">info@correo.com</a></p>
+                                        </div>
+                                    
+                                    </div>
+                            </div>
+                            <div class="col">
+                                    <div class="card px-2 mx-2">
+                                        <i class="bi bi-linkedin"></i>
+                                        <div class="card-body">
+                                        <h5 class="card-title fs-6">Linkedin</h5>
+                                        <p class="card-text"><a href="https://ar.linkedin.com/CVdealguien" class="link-primary">CVdealguien</a></p>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="col">
+                                    <div class="card px-2 mx-2">
+                                        <i class="bi bi-whatsapp"></i>
+                                        <div class="card-body">
+                                        <h5 class="card-title fs-6">Whatapps</h5>
+                                        <p class="card-text"><a href="https://wa.me/549112584578" class="link-primary">+54-9-11-258-4578</a></p>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="col">
+                                    <div class="card px-2 mx-2">
+                                        <i class="bi bi-twitter"></i>
+                                        <div class="card-body">
+                                            <h5 class="card-title fs-6">Twitter</h5>
+                                            <p class="card-text">+54-9-11-258-4578</p>
+                                        </div>
+                                    </div>
+                            
+                            </div>  
+                        </div>
+                    </section>  <!-- FIN de la sección de la página web 'footer' informacion de Contacto, Redes Sociales  -->
+                    <section>   <!-- INICIO de la sección de la página web 'footer' Formulario de Contacto  -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="float-end">
+                                    <a href="index.html#menu_nav_brand"><i class="bi bi-caret-up-square-fill"></i></a>
+                                </div>
+                                <h6 id="contacto" class="text-decoration-underline mt-4"> CONTACTO </h6>
+                                <div class="card-group px-2 py-2 my-1 mx-2 mb-2">
+                                    <div class="card">
+                                        <div class="card-body p-2">
+                                            <i class="bi bi-envelope-at"></i>
+                                            <form class="row g-1 needs-validation" id="form_contacto" action="#staticBackdrop" novalidate>
+                                                <div class="col-md-3">
+                                                    <label for="validoEmpresa" class="form-label">Empresa/Organizacion:</label>
+                                                    <input type="text" class="form-control" id="form_empresa" value="" required>
+                                                    <div class="valid-feedback">
+                                                        por favor ingrese una empresa/organizacion
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <label for="validoNombre" class="form-label">Nombre:</label>
+                                                    <input type="text" class="form-control" id="form_nombre" value=""required>
+                                                    <div class="valid-feedback">
+                                                        por favor ingrese una empresa/organizacion
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <label for="validoApellido" class="form-label">Apellido:</label>
+                                                    <input type="text" class="form-control" id="form_apellido" value=""required>
+                                                    <div class="valid-feedback">
+                                                        por favor ingrese una empresa/organizacion
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <label for="validoEmail" class="form-label">Correo electronico:</label>
+                                                    <input type="email" class="form-control" id="form_email" placeholder="name@example.com"required>
+                                                    <div class="valid-feedback">
+                                                        por favor ingrese una empresa/organizacion
+                                                    </div>
+                                                </div>
+                                                <div class="mb-8">
+                                                    <label for="validoComentarios" class="form-label">Por favor deje un comentario:</label>
+                                                    <textarea class="form-control" id="form_comentarios" rows="3"></textarea>
+                                                </div>
+                                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                                    <button class="btn btn-secondary" type="submit" id="boton_enviar_form">Enviar</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>  <!-- FIN 'card-group' --> 
+                            </div>  <!-- FIN 'col' -->
+                        </div>  <!-- FIN 'row' -->
+                        <!-- Modal formulario ok-->
+                        <div class="modal fade" id="modalFormOK" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i class="bi bi-emoji-smile"></i>    Sus datos fueron recibidos correctamente</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Gracias por completar el formulario, a la brevedad estaremos en contacto.-
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  <!-- FIN Modal formulario ok-->
+                        <!-- Modal formulario con error-->
+                        <div class="modal fade" id="modalFormError" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i class="bi bi-exclamation-triangle-fill"></i>    Datos de formularios incompletos     <i class="bi bi-exclamation-triangle-fill"></i></h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Por favor, debe completar todos los campos del formulario, Gracias.-
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  <!-- FIN Modal formulario con error-->
+                    </section>  <!-- FIN de la sección de la página web 'footer' Formulario de Contacto  -->
+                </div>
+            </section>  <!-- FIN de la sección de la página web 'footer' -->
+        </div>
+    </div>
+    <!-- INICIO de la sección de SCRIPT javascript  -->
+    <script src="js/rutinas-js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- FIN de la sección de SCRIPT javascript  -->
+    </body>
+</html>

@@ -1,0 +1,185 @@
+body{
+    background:#f8f6f6;
+}
+
+.container{
+    gap:1rem;
+}
+
+#menu a {
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+
+.navbar-toggler {
+    background:white;
+}
+
+.header {
+    border-style:groove;
+    min-height: 150px;
+}
+
+.aside{
+    gap:1rem;
+    border-style:groove;
+}
+
+.contenido {
+    margin-left: 5px;
+    min-height: 600px;
+}
+
+.footer{
+    margin-left: 1px;
+    border-style:groove;
+    min-height: 100px;
+}
+
+.contenido-principal {
+    gap:1rem;
+    border-style:groove;
+    min-height: 600px;
+}
+
+.card {
+    background-color:rgb(233, 227, 227);
+}
+
+.estilo-resaltar {
+    background-color: yellow;
+}
+
+.form-check {
+    margin-left: 30px;
+}
+
+.checkbox {
+    width: 300px;
+    margin: 100px auto;
+}
+
+#checkbox {
+    width: 40px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.accordion-item {
+    background:#f8f6f6;
+}
+.accordion-header {
+    background:#f8f6f6;
+}
+
+.accordion-button {
+    background:#f8f6f6;
+}
+
+#text-nativo {
+    color:blue;                /* color de fuente */
+    -webkit-text-stroke: #f8f6f6;
+}
+
+/* modo "oscuro" */
+.darkmode {
+    background-color: #292929;  /* color de fondo */
+    color:white;                /* color de fuente */
+}
+
+.darkmode .card {
+    background-color:rgba(0, 0, 0, 0.425);  /* #3d3d3d;*/
+}
+
+.darkmode .btn {
+    background-color:rgba(0, 0, 0, 0.425);  /* #3d3d3d;*/
+}
+
+.darkmode .table {
+    color:white;                /* color de fuente */
+}
+
+/* modo "oscuro" barra de navegacion.... */
+.darkmode #menu_nav_brand {
+    color:white;                /* color de fuente */
+}
+.darkmode #menu-nav-home {
+    color:white;                /* color de fuente */
+}
+.darkmode #menu-nav-comp {
+    color:white;                /* color de fuente */
+}
+.darkmode #menu-nav-est {
+    color:white;                /* color de fuente */
+}
+.darkmode #menu_nav_idiomas {
+    color:white;                /* color de fuente */
+}
+.darkmode #menu-nav-exp {
+    color:white;                /* color de fuente */
+}
+.darkmode #menu-nav-redes {
+    color:#ffffff;                /* color de fuente */
+}
+.darkmode #menu_nav_contacto {
+    color:white;                /* color de fuente */
+}
+
+.darkmode #text-nativo {
+    color:yellow;                /* color de fuente */
+    text-align:center;
+
+}
+
+.darkmode.estilo-resaltar .h6 {
+    background-color: yellow;
+    color:#000000;
+}
+
+.darkmode .accordion {
+    background: #292929;  /* color de fondo */
+}
+
+.darkmode .accordion-item {
+    background: #292929;  /* color de fondo */
+    color:white;                /* color de fuente */
+}
+
+.darkmode .accordion-header {
+    background: #292929;  /* color de fondo */
+    color:white;                /* color de fuente */
+}
+
+.darkmode .accordion-body {
+    background: #292929;  /* color de fondo */
+    color:white;                /* color de fuente */
+}
+
+.darkmode .accordion-button {
+    color: inherit;
+    background: #292929;  /* color de fondo */
+    color:white;                /* color de fuente */
+}
+
+.darkmode .accordion-button:not(.collapsed) {
+    color: inherit;
+    background: #292929;  /* color de fondo */
+    color:white;                /* color de fuente */
+}
+
+.darkmode .accordion-button.collapsed::after {
+    filter: brightness(0%) invert(70%);
+}
+
+.darkmode .accordion-button:not(.collapsed)::after {
+    filter: brightness(0%) invert(70%);
+}
+
+.darkmode .accordion-button:focus {
+    box-shadow:inherit ;
+}
+
+.darkmode .modal-content {
+    background: #292929;  /* color de fondo */
+}
